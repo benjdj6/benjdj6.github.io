@@ -20,7 +20,7 @@ body {
     transform: scale(1.07);
   
     display: block;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg2.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg-3.jpg');
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
@@ -35,6 +35,10 @@ body {
     filter: blur(7px);
 }
 
+.container {
+    color: #fcf6e3;
+}
+
 .vcenter {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -43,8 +47,7 @@ body {
   align-items: center;
 }
 
-h1 {
+h1, h3, p {
     font-family: 'Lato', sans-serif;
-    color: #fcf6e3;
     opacity: 0.8;
 }
