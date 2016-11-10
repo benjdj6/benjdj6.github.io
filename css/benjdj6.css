@@ -1,14 +1,23 @@
+i {
+    opacity: 0.8;
+    color: #fcf6e3;
+}
+
+.col-md-1 {
+    text-align: center;
+}
+
 body {
     overflow: hidden;
 }
 
-.content:before {
+.container:before {
     content: "";
     position: fixed;
     left: 0;
     right: 0;
     z-index: -1;
-    transform: scale(1.03);
+    transform: scale(1.07);
   
     display: block;
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg.jpg');
@@ -25,32 +34,34 @@ body {
     filter: blur(7px);
 }
 
-.content {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+.vcenter {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
 
+  display: flex;
+  align-items: center;
+}
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 40pt;
-    height: 100px;
-    padding: 0px;
-    margin-top:0px;
+    color: #fcf6e3;
+    opacity: 0.8;
 }
 
+/*
+.links {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    display: inline;
+}
 
 .bottom {
     bottom: 0;
     position: fixed;
-    color: #F0F3BD;
+    color: #333333;
     font-family: 'Lato', sans-serif;
     font-size: 12pt;
     width: 100%;
     text-align: center;
 }
-
+*/
