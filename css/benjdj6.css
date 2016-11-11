@@ -30,6 +30,10 @@ a:hover, a:hover p {
     text-align: center;
 }
 
+.col-md-12 {
+    text-align: left;
+}
+
 body {
     overflow: hidden;
 }
