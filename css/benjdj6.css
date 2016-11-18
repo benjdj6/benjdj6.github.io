@@ -74,7 +74,11 @@ body {
 
 h1, h3, p {
     font-family: 'Lato', sans-serif;
-    opacity: 0.8;
+    opacity: 0.9;
+}
+
+.bio {
+    font-size: 12pt;
 }
 
 .fade-in {
