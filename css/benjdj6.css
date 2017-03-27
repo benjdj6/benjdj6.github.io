@@ -47,7 +47,7 @@ body {
     transform: scale(1.07);
   
     display: block;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg-3.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg-2.jpg');
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
