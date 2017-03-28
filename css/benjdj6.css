@@ -38,7 +38,7 @@ body {
     overflow: hidden;
 }
 
-.c1:before {
+.c1:before, .c2:before, .c3:before {
     content: "";
     position: fixed;
     left: 0;
@@ -46,62 +46,41 @@ body {
     z-index: -1;
     transform: scale(1.07);
   
+    display: block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    
+    -webkit-animation: slowblur 1s ease-in 1s forwards;
+    -moz-animation: slowblur 1s ease-in 1s forwards;
+    animation: slowblur 1s ease-in 1s forwards;
+}
+
+.c1:before {
     display: block;
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg-1.jpg');
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-
-    width: 100%;
-    height: 100%;
-    
-    -webkit-animation: slowblur 1s ease-in 1s forwards;
-    -moz-animation: slowblur 1s ease-in 1s forwards;
-    animation: slowblur 1s ease-in 1s forwards;
 }
 
 .c2:before {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    transform: scale(1.07);
-  
     display: block;
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg-2.jpg');
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-
-    width: 100%;
-    height: 100%;
-    
-    -webkit-animation: slowblur 1s ease-in 1s forwards;
-    -moz-animation: slowblur 1s ease-in 1s forwards;
-    animation: slowblur 1s ease-in 1s forwards;
 }
 
 .c3:before {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    transform: scale(1.07);
-  
     display: block;
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg-3.jpg');
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-
-    width: 100%;
-    height: 100%;
-    
-    -webkit-animation: slowblur 1s ease-in 1s forwards;
-    -moz-animation: slowblur 1s ease-in 1s forwards;
-    animation: slowblur 1s ease-in 1s forwards;
 }
 
 .container {
