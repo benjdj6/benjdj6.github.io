@@ -6,5 +6,4 @@ $(document).ready(function(){
     
     var container = document.getElementById('container');
     container.className += classToAdd;
-    console.log(container.className)
 });
