@@ -38,7 +38,7 @@ body {
     overflow: hidden;
 }
 
-.c1:before, .c2:before, .c3:before {
+.c1:before, .c2:before, .c3:before, .c4:before {
     content: "";
     position: fixed;
     left: 0;
@@ -78,6 +78,14 @@ body {
 .c3:before {
     display: block;
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg-3.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.c4:before {
+    display: block;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../assets/bg-4.jpg');
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
